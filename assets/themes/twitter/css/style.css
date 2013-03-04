@@ -1,0 +1,133 @@
+/* Custom container */
+body,
+input,
+button,
+select,
+textarea,
+.navbar-search .search-query {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+footer {
+    margin-top: 2em;
+}
+h1 {
+    font-size: 3em;
+    font-weight: normal;
+    margin-top:1.5em;
+}
+h2 {
+    font-size: 2em;
+    font-weight: normal;
+    font-style: italic;
+    margin-top:1em;
+}
+
+h3{
+    font-size:1.5em;
+    font-weight:normal;
+    margin-top:0.5em;
+}
+
+a {
+    color:inherit;
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: none;
+    color:inherit;
+}
+
+a:visited{
+    color:#888;
+}
+
+
+.sidebar {
+    float:right;
+    text-align:right;
+    padding:25px 25px 0 0;
+}
+
+@media (max-width: 767px) {
+    .bar.affix {
+        position: static;
+        width: auto;
+        top: 0;
+    }
+    .sidebar {
+        float:none;
+    }
+}
+
+ul.bar {
+    list-style-type:none;
+    width:auto;
+}
+
+.content{
+    max-width:500px;
+    margin-bottom:125px;
+}
+ul.bar a{
+    text-decoration: none;
+    color:#888;
+    font-size:1.3em;
+}
+ul.bar a.active{
+    color:inherit;
+}
+ul.bar a:hover{
+    color:inherit;
+}
+
+pre,code {
+    background-color:transparent;
+    border:none;
+}
+
+pre{
+    padding:2em;
+}
+
+.page-header{
+    border:none;
+    margin-top:-1em;
+    margin-bottom:0;
+}
+
+.navbar .nav {
+  float: right;
+}
+
+/* posts index */
+.post > h3.title {
+  position: relative;
+  padding-top: 10px;
+}
+
+.post > h3.title span.date {
+  position: absolute;
+  right: 0;
+  font-size: 0.9em;
+}
+
+.post > .more {
+  margin: 10px 0;
+  text-align: left;
+}
+
+/* post-full*/
+.post-full .date {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+div.mpagination li{
+    display:inline;
+    margin:15px;
+}
+a.title-link {
+    text-decoration: none;
+    color:inherit;
+}

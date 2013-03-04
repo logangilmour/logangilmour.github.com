@@ -1,0 +1,15 @@
+---
+layout: page
+title: Categories
+header: Posts By Category
+group: navigation
+---
+{% include JB/setup %}
+
+{% for category in site.categories %}
+  <h3 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h3>
+  <ul>
+    {% assign pages_list = category[1] %}
+    {% include JB/pages_list %}
+  </ul>
+{% endfor %}
