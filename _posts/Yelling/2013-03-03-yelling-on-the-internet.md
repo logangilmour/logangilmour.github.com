@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “I Will Henceforth be Yelling on the Internet"
+title: I Will Henceforth be Jabbering Semi-Coherently on the Internet
 description: “”
 category: Meta
 tags: []
