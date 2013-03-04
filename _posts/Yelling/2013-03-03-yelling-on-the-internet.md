@@ -2,7 +2,7 @@
 layout: post
 title: "Yelling on the Internet"
 description: “”
-category: Yelling
+category: Meta
 tags: []
 ---
 {% include JB/setup %}
