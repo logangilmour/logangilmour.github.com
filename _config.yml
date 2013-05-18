@@ -31,11 +31,6 @@ menu :
     url: https://soundcloud.com/logangilmour
   - site: myspace
     url: http://www.myspace.com/unicornmachine
-  - break: true
-  - title: rss
-  - title: atom
-  - title: sitemap
-
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
