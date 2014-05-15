@@ -4,11 +4,13 @@ title: About Me
 ---
 {% include JB/setup %}
 
-I want to change the way the world deals with information.
+I want to help grow new ways for information to flow.
 
-This site is mainly for broadcasting my misguided ideas about programming, culture, and life out into the universe. I love minimalist design - I've tried to make my site reflect this.
+This place is for broadcasting my misguided ideas about beauty, communication, and life out into the universe.
 
 ### Some of my stuff:
+
+I write things down sometimes - that's here.
 
 I'm a programmer - check out my [github](http://github.com/logangilmour) to see some frighteningly undocumented code.
 
