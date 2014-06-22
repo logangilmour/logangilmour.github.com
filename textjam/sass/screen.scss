@@ -1,0 +1,91 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+$lh:30px;
+.hidden{
+display:none;
+}
+#blackout{
+position:absolute;
+left:0;
+top:0;
+width:100%;
+height:100%;
+background:#000;
+display:none;
+z-index:1000;
+padding-top:100px;
+color:#fff;
+font-size:50px;
+text-align:center;
+}
+
+#holder{
+	position:absolute;
+	bottom:50%;
+	left:200px;
+}
+body{
+font-family: "futura-pt",sans-serif;
+}
+p, a{line-height:$lh; font-size:24px; margin:0; padding:0; color:#000;}
+
+a:active, a:hover{ text-decoration:none;}
+
+.new {margin-top:$lh;}
+
+#red{
+background-color:#f00;
+position:absolute;
+left:0;
+top:0;
+width:100%;
+height:100%;
+}
+#grey{
+background-color:#ddd;
+position:absolute;
+left:0;
+top:0;
+width:100%;
+height:100%;
+}
+
+.action{
+position:absolute;
+bottom:56px;
+text-align:center;
+width:25%;
+}
+.word{
+font-size:44px;
+}
+.letter{
+font-size:60px;
+}
+
+#weapons-holder{
+	position:absolute;
+	bottom:28px;
+	left:0;
+	width:100%;
+	height: 1px;
+	border:1px solid #eee;
+	background-color: #000;
+	color: #000;
+	text-align: center;
+}
+#weapons{
+	background-color: #fff; 
+	position: relative; 
+	top: -18px;
+text-transform:uppercase;
+font-size:18px;
+letter-spacing:3px;
+line-height:36px;	
+padding:0px 28px;
+}
