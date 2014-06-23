@@ -1,0 +1,14 @@
+body {
+  font-family: "futura-pt",sans-serif;
+  font-size:60px;
+  line-height:60px;
+  margin:60px;
+}
+
+a{ 
+display:block;margin-bottom:60px; text-decoration:none;
+color:#000;
+}
+a:hover, a:active{
+color:#f00;
+}
