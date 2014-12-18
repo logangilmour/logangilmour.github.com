@@ -1,11 +1,13 @@
 body {
   font-family: "futura-pt",sans-serif;
-  font-size:60px;
-  line-height:60px;
   margin:60px;
+  font-size:17px;
+  line-height:23px;
 }
 
-a{ 
+body a{
+  font-size:60px;
+  line-height:60px; 
 display:block;margin-bottom:60px; text-decoration:none;
 color:#000;
 }
@@ -40,12 +42,6 @@ padding-top:13px;
 line-height:17px;
 padding-bottom:10px;
 text-transform:uppercase;
-}
-
-body{
-font-family: "futura-pt",serif;
-font-size:17px;
-line-height:23px;
 }
 
 a {
