@@ -57,14 +57,14 @@ p {
   font-size:17px;
   text-align:justify;
   margin-bottom:23px;
+  width:100%;
+  max-width:460px;
 }
 
 article{
-margin: 23px;
-width:100%;
-max-width:460px;
+margin-bottom:60px;
 }
-article h1, article time:first-child{
+article h1, article>time:first-child{
 font-size:38px;
 line-height:46px;
 }
