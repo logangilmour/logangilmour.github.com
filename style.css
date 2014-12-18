@@ -64,8 +64,7 @@ margin: 23px;
 width:100%;
 max-width:460px;
 }
-time{
-	font-size:14px;
-	line-height:18px;
-	font-family: "futura-pt",sans-serif;
+article h1, article time:first-child{
+font-size:38px;
+line-height:46px;
 }
